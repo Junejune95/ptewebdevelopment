@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.772" height="17.037" viewBox="0 0 20.772 17.037">
+  <g id="Group_119" data-name="Group 119" transform="translate(-48.371 -403.709)">
+    <path id="Icon_awesome-pencil-alt" data-name="Icon awesome-pencil-alt" d="M10.887,3.224,9.879,4.268a.256.256,0,0,1-.372,0L7.081,1.753a.279.279,0,0,1,0-.385L8.088.323a1.026,1.026,0,0,1,1.485,0l1.314,1.362A1.114,1.114,0,0,1,10.887,3.224ZM6.215,2.265.473,8.216.01,10.969a.535.535,0,0,0,.608.63l2.656-.483L9.016,5.166a.279.279,0,0,0,0-.385L6.589,2.265a.259.259,0,0,0-.374,0Zm-3.5,5.441a.324.324,0,0,1,0-.449l3.367-3.49a.3.3,0,0,1,.433,0,.324.324,0,0,1,0,.449L3.147,7.706a.3.3,0,0,1-.433,0ZM1.925,9.612H2.975v.823l-1.41.256-.68-.7.247-1.462h.794Z" transform="translate(57.948 403.704)"/>
+    <g id="Icon_ionic-md-paper" data-name="Icon ionic-md-paper" transform="translate(31.496 395.104)">
+      <path id="Path_218" data-name="Path 218" d="M17.438,9.562H28.23v.5H17.438Z" transform="translate(0 0.203)" stroke="#000" stroke-width="1"/>
+      <path id="Path_219" data-name="Path 219" d="M17.438,15.75h8.236v.5H17.438Z" transform="translate(0 -2.298)" stroke="#000" stroke-width="1"/>
+      <path id="Path_223" data-name="Path 223" d="M17.438,20.25H23.1v.5H17.438Z" transform="translate(0.058 -3.063)" stroke="#000" stroke-width="1"/>
+      <path id="Path_224" data-name="Path 224" d="M17.438,20.25H33.113v.181H17.438Z" transform="translate(-0.063 1.438)" stroke="#000" stroke-width="1"/>
+      <path id="Path_226" data-name="Path 226" d="M17.438,20.25H32.832v.181H17.438Z" transform="translate(0.059 4.711)" stroke="#000" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

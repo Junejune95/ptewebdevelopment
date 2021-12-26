@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121.542" height="63.649" viewBox="0 0 121.542 63.649">
+  <g id="highlightIncorrectWord" transform="translate(30.92 12.799)">
+    <path id="Path_83" data-name="Path 83" d="M0,20H78.18v4.85H0Z" transform="translate(-26.627 26)" fill="rgba(38,49,38,0.53)"/>
+    <path id="ic_backspace_24px" d="M22,3H7a1.882,1.882,0,0,0-1.59.88L0,12l5.41,8.11A1.891,1.891,0,0,0,7,21H22a2.006,2.006,0,0,0,2-2V5A2.006,2.006,0,0,0,22,3ZM19,15.59,17.59,17,14,13.41,10.41,17,9,15.59,12.59,12,9,8.41,10.41,7,14,10.59,17.59,7,19,8.41,15.41,12Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, -8.515, 13.697)" fill="#263126"/>
+    <path id="Path_134" data-name="Path 134" d="M31.392,13.711l-7.47-7.344L4,25.951v7.344h7.47Zm5.9-5.8a1.927,1.927,0,0,0,0-2.761L32.627.57a2.008,2.008,0,0,0-2.809,0l-3.9,3.838,7.47,7.344Z" transform="translate(52 15.256)" fill="#263126" stroke="#fff" stroke-width="1.5"/>
+    <path id="ic_title_24px" d="M5,4v6.758H16.734V37.792h6.4V10.758H34.867V4Z" transform="translate(-11 4)" fill="#263126"/>
+  </g>
+</svg>

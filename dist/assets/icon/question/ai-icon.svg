@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103.051" height="88.809" viewBox="0 0 103.051 88.809">
+  <g id="Group_129" data-name="Group 129" transform="translate(-589.865 -366.675)">
+    <path id="Icon_awesome-cloud" data-name="Icon awesome-cloud" d="M83.2,30.9a13.623,13.623,0,0,0,.991-5.094c0-7.8-6.655-14.135-14.858-14.135a15.322,15.322,0,0,0-8.249,2.385A24.991,24.991,0,0,0,39.62,2.25c-13.681,0-24.763,10.542-24.763,23.558,0,.4.015.8.031,1.193A21.318,21.318,0,0,0,0,47.011c0,11.705,9.982,21.2,22.286,21.2H79.241c10.942,0,19.81-8.437,19.81-18.847C99.051,40.252,92.241,32.64,83.2,30.9Z" transform="translate(591.865 366.425)" fill="#aae9f8" stroke="#005465" stroke-width="4"/>
+    <path id="Icon_feather-message-square" data-name="Icon feather-message-square" d="M55.066,34.421c0,2.754-2.515,4.987-5.618,4.987H15.737L4.5,49.382V9.487C4.5,6.733,7.015,4.5,10.118,4.5H49.448c3.1,0,5.618,2.233,5.618,4.987Z" transform="translate(611.607 404.602)" fill="#ffc107" stroke="#005465" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <text id="AI" transform="translate(641 432)" fill="#005465" font-size="16" font-family="AvenirNextCondensed-DemiBold, Avenir Next Condensed" font-weight="300"><tspan x="-6.16" y="0">AI</tspan></text>
+  </g>
+</svg>

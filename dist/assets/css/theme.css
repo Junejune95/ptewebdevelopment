@@ -1,0 +1,28 @@
+:root{
+    --primary-color: #007000;
+    --primary-light-color:#EFFFEF;
+    --text-light-color: #ffffff; 
+    --text-fade-color: #666363; 
+    --text-dark-color: #263126; 
+    --speaking-color: #08AF08; 
+    --writing-color: #EA6E12; 
+    --reading-color: #07BCE2; 
+    --listening-color: #ED3A5A; 
+    --main-bg-color:#F5F5F5;
+    --half-bg-color:#D6980C;
+    --sidemenu-bg-color:#ffffff;
+    --sidemenu-header-text-color:#007000;
+    --sidemenu-active:#c4fbc4;
+    --primary-filter-color: invert(18%) sepia(61%) saturate(7057%) hue-rotate(100deg) brightness(62%) contrast(105%);
+    --speaking-filter-color:invert(38%) sepia(81%) saturate(1783%) hue-rotate(92deg) brightness(101%) contrast(94%);
+    --writing-filter-color:invert(50%) sepia(88%) saturate(2570%) hue-rotate(357deg) brightness(96%) contrast(90%);
+    --reading-filter-color:invert(72%) sepia(70%) saturate(4627%) hue-rotate(150deg) brightness(99%) contrast(94%);
+    --listening-filter-color:invert(29%) sepia(68%) saturate(1819%) hue-rotate(323deg) brightness(100%) contrast(94%);
+    --white-filter:invert(100%) sepia(100%) saturate(0%) hue-rotate(257deg) brightness(104%) contrast(102%);
+    --card-boxshadow: 1px 11px 68px -20px #00000054;
+    --button-boxshadow:0px 15px 28px -5px rgb(117 117 117 / 45%);
+    --textbox-boxshadow:0px 3px 6px #c3dbc3;
+    --default-border-radius:4px;
+    --half-bg-fade-color:rgb(248, 248, 219);
+}
+

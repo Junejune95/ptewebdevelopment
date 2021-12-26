@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="106" viewBox="0 0 126 106">
+  <g id="create_question" data-name="create question" transform="translate(-414 -473)">
+    <text id="_" data-name="?" transform="translate(517.859 500)" fill="#263126" font-size="22" font-family="AvenirNextCondensed-Bold, Avenir Next Condensed" font-weight="700"><tspan x="-4.708" y="0">?</tspan></text>
+    <path id="ic_chat_bubble_outline_24px" d="M41.727,2H6.414A4.339,4.339,0,0,0,2,6.233v38.1l8.828-8.466h30.9a4.339,4.339,0,0,0,4.414-4.233V6.233A4.339,4.339,0,0,0,41.727,2Zm0,29.632h-30.9L6.414,35.865V6.233H41.727Z" transform="translate(493.859 471)" fill="#263126"/>
+    <path id="ic_account_balance_24px" d="M11.053,37.857V66.524H24.632V37.857Zm27.158,0V66.524H51.789V37.857ZM2,87H88V74.714H2ZM65.368,37.857V66.524H78.947V37.857ZM45,1,2,21.476v8.19H88v-8.19Z" transform="translate(412 492)" fill="#263126"/>
+  </g>
+</svg>

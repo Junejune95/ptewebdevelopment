@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103.137" height="107.91" viewBox="0 0 103.137 107.91">
+  <defs>
+    <filter id="ic_insert_photo_24px" x="49.137" y="62.91" width="54" height="45" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#ebebeb"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_50" data-name="Group 50" transform="translate(-909.656 -536)">
+    <g transform="matrix(1, 0, 0, 1, 909.66, 536)" filter="url(#ic_insert_photo_24px)">
+      <path id="ic_insert_photo_24px-2" data-name="ic_insert_photo_24px" d="M39,27V6c0-1.65-1.8-3-4-3H7C4.8,3,3,4.35,3,6V27c0,1.65,1.8,3,4,3H35C37.2,30,39,28.65,39,27ZM14,18.75l5,4.515L26,16.5l9,9H7Z" transform="translate(55.14 65.91)" fill="#263126"/>
+    </g>
+    <path id="ic_subject_24px" d="M54.625,79.571H4V92H54.625ZM85,29.857H4V42.286H85ZM4,67.143H85V54.714H4ZM4,5V17.429H85V5Z" transform="translate(905.656 531)" fill="#263126"/>
+  </g>
+</svg>

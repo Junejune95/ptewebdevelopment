@@ -100,6 +100,148 @@
   },
 
   /***/
+  "./src/app/core/authentication/auth.service.ts":
+  /*!*****************************************************!*\
+    !*** ./src/app/core/authentication/auth.service.ts ***!
+    \*****************************************************/
+
+  /*! exports provided: AuthService */
+
+  /***/
+  function srcAppCoreAuthenticationAuthServiceTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "AuthService", function () {
+      return AuthService;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! environments/environment */
+    "./src/environments/environment.ts");
+    /* harmony import */
+
+
+    var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @angular/common/http */
+    "./node_modules/@angular/common/fesm2015/http.js");
+    /* harmony import */
+
+
+    var rxjs_operators__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! rxjs/operators */
+    "./node_modules/rxjs/_esm2015/operators/index.js");
+
+    let AuthService = class AuthService {
+      constructor(_router, http) {
+        this._router = _router;
+        this.http = http;
+        this.baseUrl = environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].apiUrl + "/api/v1/";
+      }
+      /**
+      * check for expiration and if token is still existing or not
+      * @return {boolean}
+      */
+
+
+      isAuthenticated() {
+        return localStorage.getItem('token') != null && !this.isTokenExpired();
+      }
+      /**
+      * this is used to clear anything that needs to be removed
+      */
+
+
+      clear() {
+        localStorage.clear();
+      } // simulate jwt token is valid
+
+
+      isTokenExpired() {
+        return false;
+      } // loginAdmin(): void {
+      //   localStorage.setItem('token', `eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE1MzMyNzM5NjksImV4cCI6MTU2NDgxMDAwNSwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoiVGVzdCBHdWFyZCIsIkdpdmVuTmFtZSI6IkpvaG5ueSIsIlN1cm5hbWUiOiJSb2NrZXQiLCJFbWFpbCI6Impyb2NrZXRAZXhhbXBsZS5jb20iLCJyb2xlIjoiQWRtaW4ifQ.rEkg53_IeCLzGHlmaHTEO8KF5BNfl6NEJ8w-VEq2PkE`);
+      //   this._router.navigate(['/board']);
+      // }
+      // login(): void {
+      //   localStorage.setItem('token', `eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE1MzMyNzM5NjksImV4cCI6MTU2NDgxMDAwNSwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoiVGVzdCBHdWFyZCIsIkdpdmVuTmFtZSI6IkpvaG5ueSIsIlN1cm5hbWUiOiJSb2NrZXQiLCJFbWFpbCI6Impyb2NrZXRAZXhhbXBsZS5jb20ifQ.GA0Y9gYIjmx1jLwuRHuBgZ8m6o-NgkD84nO0ym68CWo`);
+      //   this._router.navigate(['/dashboard']);
+      // }
+
+      /**
+       * this is used to clear local storage and also the route to login
+       */
+
+
+      logout() {
+        this.clear();
+
+        this._router.navigate(['/home']);
+      }
+
+      decode() {
+        return JSON.parse(atob(localStorage.getItem("userData")));
+      } // Reset Password
+
+
+      emailResetCode(data) {
+        const url = this.baseUrl + "user/forgot-password";
+        return this.http.post(url, data);
+      }
+
+      checkCode(userId, code) {
+        const url = this.baseUrl + "user/" + userId + "/check-verification";
+        return this.http.post(url, code);
+      }
+
+      resetPassword(data) {
+        const url = this.baseUrl + "user/reset-password";
+        return this.http.post(url, data);
+      }
+
+      logoutAPICalling() {
+        let url = this.baseUrl + "logout";
+        return this.http.get(url).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_5__["map"])(obj => obj || {}));
+      }
+
+    };
+
+    AuthService.ctorParameters = () => [{
+      type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]
+    }, {
+      type: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"]
+    }];
+
+    AuthService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+      providedIn: 'root'
+    })], AuthService);
+    /***/
+  },
+
+  /***/
   "./src/app/modules/mainView/about-us/about-us.component.css":
   /*!******************************************************************!*\
     !*** ./src/app/modules/mainView/about-us/about-us.component.css ***!

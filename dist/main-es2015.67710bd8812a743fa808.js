@@ -1763,7 +1763,7 @@ ErrorsService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /*!****************************************!*\
   !*** ./src/app/core/services/index.ts ***!
   \****************************************/
-/*! exports provided: LoaderService, AudioRecordingService, ErrorsService, LoggingService, NotificationService, ToastService */
+/*! exports provided: ToastService, AudioRecordingService, ErrorsService, LoaderService, LoggingService, NotificationService */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

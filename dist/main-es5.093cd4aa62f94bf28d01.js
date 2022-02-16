@@ -2460,7 +2460,7 @@
     !*** ./src/app/core/services/index.ts ***!
     \****************************************/
 
-  /*! exports provided: AudioRecordingService, ErrorsService, LoaderService, LoggingService, NotificationService, ToastService */
+  /*! exports provided: LoaderService, AudioRecordingService, ErrorsService, LoggingService, NotificationService, ToastService */
 
   /***/
   function srcAppCoreServicesIndexTs(module, __webpack_exports__, __webpack_require__) {

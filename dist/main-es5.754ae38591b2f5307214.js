@@ -3627,7 +3627,7 @@
 
     const environment = {
       production: true,
-      apiUrl: 'https://pte-test.alchemistacademy.com.au',
+      apiUrl: 'https://pte.alchemistacademy.com.au',
       // apiUrl :'http://134.122.17.133:7001',
       // apiUrl :'http://161.35.115.208:7001',  //server
       enableDebug: false
@@ -3712,4 +3712,4 @@
     /***/
   }
 }, [[0, "runtime", "vendor"]]]);
-//# sourceMappingURL=main-es5.093cd4aa62f94bf28d01.js.map
+//# sourceMappingURL=main-es5.754ae38591b2f5307214.js.map

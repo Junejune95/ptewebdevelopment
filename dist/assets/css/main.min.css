@@ -278,6 +278,12 @@ span.error {
 span.success {
   color: #28A012;
 }
+span.blue {
+  color: #121ba0;
+}
+span.orange {
+  color: #b2d610;
+}
 
 /* ---------------------------------------------------
   Results in table 

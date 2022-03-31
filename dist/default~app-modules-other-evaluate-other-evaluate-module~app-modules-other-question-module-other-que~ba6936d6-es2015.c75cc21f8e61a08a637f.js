@@ -587,7 +587,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ng-container [ngSwitch]=\"moduleName\">\n    <ng-container *ngSwitchCase=\"'Reading'\">\n        <reading-score [result]=\"scoreResult\" ></reading-score>\n    </ng-container>\n    <ng-container *ngSwitchCase=\"'Speaking'\">\n        <speaking-score [result]=\"scoreResult\"></speaking-score>\n    </ng-container>\n    <ng-container *ngSwitchCase=\"'Listening'\">\n        <listening-score [data]=\"scoreResult\"></listening-score>\n    </ng-container>\n   \n</ng-container>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<ng-container [ngSwitch]=\"moduleName\">\n    <ng-container *ngSwitchCase=\"'Reading'\">\n        <reading-score [result]=\"scoreResult\" ></reading-score>\n    </ng-container>\n    <ng-container *ngSwitchCase=\"'Speaking'\">\n        <speaking-score [result]=\"scoreResult\"></speaking-score>\n    </ng-container>\n    <ng-container *ngSwitchCase=\"'Listening'\">\n        <listening-score [data]=\"scoreResult\"></listening-score>\n    </ng-container>\n    <ng-container *ngSwitchCase=\"'Writing'\">\n        <div *ngIf=\"scoreResult.questionType=='Essay Writing'\">\n        <evaluation-score [scoreData]=\"scoreResult\" *ngIf=\"scoreResult\"></evaluation-score>\n        </div>\n        <div *ngIf=\"scoreResult.questionType=='Summarize Written Text'\">\n        <summary-score [scoreData]=\"scoreResult\" *ngIf=\"scoreResult\"></summary-score>\n        </div>\n    </ng-container>\n   \n</ng-container>\n");
 
 /***/ }),
 
@@ -6283,4 +6283,4 @@ UserInfoComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /***/ })
 
 }]);
-//# sourceMappingURL=default~app-modules-other-evaluate-other-evaluate-module~app-modules-other-question-module-other-que~ba6936d6-es2015.f7bd70763691aa97d19e.js.map
+//# sourceMappingURL=default~app-modules-other-evaluate-other-evaluate-module~app-modules-other-question-module-other-que~ba6936d6-es2015.c75cc21f8e61a08a637f.js.map

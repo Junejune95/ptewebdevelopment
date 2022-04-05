@@ -275,14 +275,20 @@ span.error {
   color: #D31912;
 }
 
+span.orange {
+  color: #d18d10;
+}
+
+span.blue{
+  color: #107da9;
+}
+
+
+span.blue {
+  color: #d18d10;
+}
 span.success {
   color: #28A012;
-}
-span.blue {
-  color: #121ba0;
-}
-span.orange {
-  color: #ffa500;
 }
 
 /* ---------------------------------------------------

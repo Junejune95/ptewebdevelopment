@@ -1099,7 +1099,7 @@ let HomeComponent = class HomeComponent {
         this._router.navigateByUrl(`alchemist-academy/live-classes`);
     }
     goToChannel() {
-        window.open('https://www.youtube.com/channel/UCNL1ZadSjHpjm4q9j2sVtOA', "_blank");
+        window.open('https://www.youtube.com/channel/UCCHh6c9NbQ8RKIDxK_DSDgg', "_blank");
     }
     youtubeLoading() {
         this.isLinkLoading = false;
@@ -1162,4 +1162,4 @@ HometResolver = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /***/ })
 
 }]);
-//# sourceMappingURL=modules-home-home-module-es2015.d55921ccb14208a9acd5.js.map
+//# sourceMappingURL=modules-home-home-module-es2015.fce83480d3edaf1bbe1f.js.map

@@ -1040,7 +1040,7 @@
       }
 
       goToChannel() {
-        window.open('https://www.youtube.com/channel/UCNL1ZadSjHpjm4q9j2sVtOA', "_blank");
+        window.open('https://www.youtube.com/channel/UCCHh6c9NbQ8RKIDxK_DSDgg', "_blank");
       }
 
       youtubeLoading() {
@@ -1128,4 +1128,4 @@
     /***/
   }
 }]);
-//# sourceMappingURL=modules-home-home-module-es5.d55921ccb14208a9acd5.js.map
+//# sourceMappingURL=modules-home-home-module-es5.fce83480d3edaf1bbe1f.js.map

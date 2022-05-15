@@ -682,12 +682,6 @@
     var _app_shared_question_components_speaking_question_speaking_question_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @app/shared/question-components/speaking-question/speaking-question.component */
     "./src/app/shared/question-components/speaking-question/speaking-question.component.ts");
-    /* harmony import */
-
-
-    var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-    /*! rxjs */
-    "./node_modules/rxjs/_esm2015/index.js");
 
     let SpeakingPractiseComponent = class SpeakingPractiseComponent {
       constructor(_activeRoute, _service) {
@@ -718,14 +712,21 @@
           this.scoreResult.audioFile = this.selectedQuestion.audioFile;
           this.scoreResult.imageFile = this.selectedQuestion.imageFile;
         } else {
-          let practiseSpeaking = this._service.onPractiseSpeakingEvaluate(answer, this.routeParam);
+          let practiseSpeaking = this._service.onPractiseSpeakingEvaluate(answer, this.routeParam); // let defineGender = this._service.ondefineGenderPitch();
+          // forkJoin([practiseSpeaking, defineGender]).subscribe((res) => {
+          //   this.scoreResult = res[0];
+          //   this.scoreResult.questionType = answer.questionType;
+          //   this.scoreResult.genderpitch = res[1];
+          // })
 
-          let defineGender = this._service.ondefineGenderPitch(answer.file);
 
-          Object(rxjs__WEBPACK_IMPORTED_MODULE_5__["forkJoin"])([practiseSpeaking, defineGender]).subscribe(res => {
-            this.scoreResult = res[0];
+          practiseSpeaking.subscribe(res => {
+            this.scoreResult = res;
             this.scoreResult.questionType = answer.questionType;
-            this.scoreResult.genderpitch = res[1];
+            this.scoreResult.genderpitch = {
+              "gender": "MIXED",
+              "frequency": 173
+            };
           });
         }
       }
@@ -896,4 +897,4 @@
     /***/
   }
 }]);
-//# sourceMappingURL=app-modules-practise-evaluate-practise-evaluate-module-es5.57ebe5818323cac0b09a.js.map
+//# sourceMappingURL=app-modules-practise-evaluate-practise-evaluate-module-es5.442397f415fb5df7f2ad.js.map

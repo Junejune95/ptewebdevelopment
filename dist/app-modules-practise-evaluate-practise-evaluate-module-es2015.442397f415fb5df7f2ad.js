@@ -443,8 +443,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
 /* harmony import */ var _app_core_http_evaluate_question_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @app/core/http/evaluate-question.service */ "./src/app/core/http/evaluate-question.service.ts");
 /* harmony import */ var _app_shared_question_components_speaking_question_speaking_question_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @app/shared/question-components/speaking-question/speaking-question.component */ "./src/app/shared/question-components/speaking-question/speaking-question.component.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
-
 
 
 
@@ -477,11 +475,16 @@ let SpeakingPractiseComponent = class SpeakingPractiseComponent {
         }
         else {
             let practiseSpeaking = this._service.onPractiseSpeakingEvaluate(answer, this.routeParam);
-            let defineGender = this._service.ondefineGenderPitch(answer.file);
-            Object(rxjs__WEBPACK_IMPORTED_MODULE_5__["forkJoin"])([practiseSpeaking, defineGender]).subscribe((res) => {
-                this.scoreResult = res[0];
+            // let defineGender = this._service.ondefineGenderPitch();
+            // forkJoin([practiseSpeaking, defineGender]).subscribe((res) => {
+            //   this.scoreResult = res[0];
+            //   this.scoreResult.questionType = answer.questionType;
+            //   this.scoreResult.genderpitch = res[1];
+            // })
+            practiseSpeaking.subscribe((res) => {
+                this.scoreResult = res;
                 this.scoreResult.questionType = answer.questionType;
-                this.scoreResult.genderpitch = res[1];
+                this.scoreResult.genderpitch = { "gender": "MIXED", "frequency": 173 };
             });
         }
     }
@@ -614,4 +617,4 @@ WritingPractiseComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 /***/ })
 
 }]);
-//# sourceMappingURL=app-modules-practise-evaluate-practise-evaluate-module-es2015.57ebe5818323cac0b09a.js.map
+//# sourceMappingURL=app-modules-practise-evaluate-practise-evaluate-module-es2015.442397f415fb5df7f2ad.js.map
